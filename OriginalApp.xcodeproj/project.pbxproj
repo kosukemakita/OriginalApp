@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		654EB9BF2566A2F60081394C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9BE2566A2F60081394C /* AppDelegate.swift */; };
 		654EB9C12566A2F60081394C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9C02566A2F60081394C /* SceneDelegate.swift */; };
-		654EB9C32566A2F60081394C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9C22566A2F60081394C /* ViewController.swift */; };
 		654EB9C62566A2F60081394C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654EB9C42566A2F60081394C /* Main.storyboard */; };
 		654EB9C82566A2F80081394C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 654EB9C72566A2F80081394C /* Assets.xcassets */; };
 		654EB9CB2566A2F80081394C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654EB9C92566A2F80081394C /* LaunchScreen.storyboard */; };
+		654EB9D32568BB6B0081394C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9D22568BB6B0081394C /* HomeViewController.swift */; };
+		654EB9D52568BB870081394C /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9D42568BB870081394C /* SettingViewController.swift */; };
+		654EB9D72568BB950081394C /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9D62568BB950081394C /* AddViewController.swift */; };
+		654EB9D92568BBB20081394C /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9D82568BBB20081394C /* CustomViewController.swift */; };
+		654EB9DB2568C4370081394C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9DA2568C4370081394C /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		654EB9BB2566A2F60081394C /* OriginalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OriginalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		654EB9BE2566A2F60081394C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		654EB9C02566A2F60081394C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		654EB9C22566A2F60081394C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		654EB9C52566A2F60081394C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		654EB9C72566A2F80081394C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		654EB9CA2566A2F80081394C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		654EB9CC2566A2F80081394C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		654EB9D22568BB6B0081394C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		654EB9D42568BB870081394C /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		654EB9D62568BB950081394C /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		654EB9D82568BBB20081394C /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		654EB9DA2568C4370081394C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,11 @@
 			children = (
 				654EB9BE2566A2F60081394C /* AppDelegate.swift */,
 				654EB9C02566A2F60081394C /* SceneDelegate.swift */,
-				654EB9C22566A2F60081394C /* ViewController.swift */,
+				654EB9D22568BB6B0081394C /* HomeViewController.swift */,
+				654EB9D42568BB870081394C /* SettingViewController.swift */,
+				654EB9D62568BB950081394C /* AddViewController.swift */,
+				654EB9DA2568C4370081394C /* TabBarController.swift */,
+				654EB9D82568BBB20081394C /* CustomViewController.swift */,
 				654EB9C42566A2F60081394C /* Main.storyboard */,
 				654EB9C72566A2F80081394C /* Assets.xcassets */,
 				654EB9C92566A2F80081394C /* LaunchScreen.storyboard */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				654EB9C32566A2F60081394C /* ViewController.swift in Sources */,
+				654EB9D52568BB870081394C /* SettingViewController.swift in Sources */,
+				654EB9D92568BBB20081394C /* CustomViewController.swift in Sources */,
+				654EB9D72568BB950081394C /* AddViewController.swift in Sources */,
 				654EB9BF2566A2F60081394C /* AppDelegate.swift in Sources */,
+				654EB9DB2568C4370081394C /* TabBarController.swift in Sources */,
 				654EB9C12566A2F60081394C /* SceneDelegate.swift in Sources */,
+				654EB9D32568BB6B0081394C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kousuke.makita.OriginalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.kousuke.makita.OriginalApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
