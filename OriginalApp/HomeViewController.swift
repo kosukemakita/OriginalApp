@@ -27,8 +27,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // セルを取得してデータを設定する
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! Subscription   TableViewCell
-        cell.setSubscriptionData(subscriptionArray[indexPath.row])
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! SubscriptionTableViewCell
+//        cell.setSubscriptionData(subscriptionArray[indexPath.row])
 
         return cell
     }

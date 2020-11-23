@@ -19,6 +19,8 @@
 		654EB9DB2568C4370081394C /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9DA2568C4370081394C /* TabBarController.swift */; };
 		654EB9DD256B6C290081394C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 654EB9DC256B6C290081394C /* GoogleService-Info.plist */; };
 		654EB9DF256BA08C0081394C /* SubscriptionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9DE256BA08C0081394C /* SubscriptionData.swift */; };
+		654EB9E2256BB5020081394C /* SubscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654EB9E0256BB5020081394C /* SubscriptionTableViewCell.swift */; };
+		654EB9E3256BB5020081394C /* SubscriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 654EB9E1256BB5020081394C /* SubscriptionTableViewCell.xib */; };
 		D22489A65B748A3C3FDB4388 /* Pods_OriginalApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D793CDAAACE50342260F971F /* Pods_OriginalApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		654EB9DA2568C4370081394C /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		654EB9DC256B6C290081394C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		654EB9DE256BA08C0081394C /* SubscriptionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionData.swift; sourceTree = "<group>"; };
+		654EB9E0256BB5020081394C /* SubscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTableViewCell.swift; sourceTree = "<group>"; };
+		654EB9E1256BB5020081394C /* SubscriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubscriptionTableViewCell.xib; sourceTree = "<group>"; };
 		84CD063144BD37B999123E6F /* Pods-OriginalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginalApp.debug.xcconfig"; path = "Target Support Files/Pods-OriginalApp/Pods-OriginalApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B5799D2C5CFE6A8BF81CDC7D /* Pods-OriginalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OriginalApp.release.xcconfig"; path = "Target Support Files/Pods-OriginalApp/Pods-OriginalApp.release.xcconfig"; sourceTree = "<group>"; };
 		D793CDAAACE50342260F971F /* Pods_OriginalApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OriginalApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -87,6 +91,8 @@
 				654EB9BE2566A2F60081394C /* AppDelegate.swift */,
 				654EB9C02566A2F60081394C /* SceneDelegate.swift */,
 				654EB9D22568BB6B0081394C /* HomeViewController.swift */,
+				654EB9E0256BB5020081394C /* SubscriptionTableViewCell.swift */,
+				654EB9E1256BB5020081394C /* SubscriptionTableViewCell.xib */,
 				654EB9DE256BA08C0081394C /* SubscriptionData.swift */,
 				654EB9D42568BB870081394C /* SettingViewController.swift */,
 				654EB9D62568BB950081394C /* AddViewController.swift */,
@@ -169,6 +175,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654EB9E3256BB5020081394C /* SubscriptionTableViewCell.xib in Resources */,
 				654EB9CB2566A2F80081394C /* LaunchScreen.storyboard in Resources */,
 				654EB9DD256B6C290081394C /* GoogleService-Info.plist in Resources */,
 				654EB9C82566A2F80081394C /* Assets.xcassets in Resources */,
@@ -225,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654EB9E2256BB5020081394C /* SubscriptionTableViewCell.swift in Sources */,
 				654EB9DF256BA08C0081394C /* SubscriptionData.swift in Sources */,
 				654EB9D52568BB870081394C /* SettingViewController.swift in Sources */,
 				654EB9D92568BBB20081394C /* CustomViewController.swift in Sources */,
